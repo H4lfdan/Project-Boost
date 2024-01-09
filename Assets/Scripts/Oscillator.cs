@@ -13,13 +13,11 @@ float movementFactor;
 [SerializeField] float ySpin = 0;
 [SerializeField] float zSpin = 0;
 
-    // Start is called before the first frame update
     void Start()
     {
         startingPosition = transform.position;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (period == 0f) {return;}  
